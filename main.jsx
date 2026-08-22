@@ -3,7 +3,7 @@ import {createRoot} from 'react-dom/client';
 import {BrowserRouter,useNavigate,useParams,Routes,Route,Link} from 'react-router-dom';
 import {BookOpen,LayoutDashboard,ClipboardList,BarChart3,FileText,Video,Newspaper,User,Search,Menu,X,Clock,CheckCircle2,ChevronLeft,ChevronRight} from 'lucide-react';
 import './styles.css';
-import {questionBank,tests} from './data/questionBank';
+import {questionBank,tests} from './questionBank";
 
 const navItems=[['Dashboard','/dashboard',LayoutDashboard],['Test Series','/tests',ClipboardList],['Notes','/notes',FileText],['Videos','/videos',Video],['Current Affairs','/current-affairs',Newspaper]];
 
